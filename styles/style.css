@@ -1,0 +1,91 @@
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.page {
+  font-family: 'Fira Sans', sans-serif;
+  background: url("../image/fon-header.jpg") 0 0/100% 100% no-repeat;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+._container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 8.5625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+}
+
+.header__info {
+  padding: 25px 0px 0px 0px;
+}
+
+.header__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header__whatsapp:not(:last-child) {
+  margin: 0px 35px 0px 0px;
+}
+
+.header__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  border: 1px solid #DBA069;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 226.68px;
+  height: 44px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.header__phone-number {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+}
+
+.header__nav {
+  position: relative;
+  padding: 16px 0px 0px 0px;
+}
+
+.header__nav > *:not(:last-child) {
+  margin: 0px 50px 0px 0px;
+}
+
+.about::after {
+  content: '';
+  position: absolute;
+  width: 76px;
+  height: 4px;
+  left: 0px;
+  top: 36px;
+  background: #DBA069;
+}

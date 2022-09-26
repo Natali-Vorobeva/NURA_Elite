@@ -1,0 +1,105 @@
+@function rem($size) {
+  @return $size / 16 * 1rem;
+}
+
+//@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.page {
+  font-family: 'Fira Sans', sans-serif;
+  //min-width: rem(1440);
+	background: url('../image/fon-header.jpg') 0 0/100% 100% no-repeat;
+	min-height: 100vh;
+  overflow: hidden;
+}
+
+._container {
+	max-width: 1180px;
+  margin: 0 auto;
+  //border-left: 1px solid #fff;
+  //border-right: 1px solid #fff;
+}
+
+.title-page {
+}
+
+.header {
+  height: rem(137);
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+
+  &__logo {
+  }
+
+  &__info {
+    padding: 25px 0px 0px 0px;
+  }
+
+  &__contacts {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__whatsapp {
+    &:not(:last-child){
+      margin: 0px 35px 0px 0px;
+    }
+  }
+
+  &__phone {
+    display: flex;
+    gap: 10px;
+    border: 1px solid #DBA069;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 226.68px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  &__phone-number {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+  }
+
+  &__nav {
+    position: relative;
+    padding: 16px 0px 0px 0px;
+    &>*:not(:last-child){
+      margin: 0px 50px 0px 0px;
+    }
+  }
+}
+.about {
+  &::after {
+    content: '';
+    position: absolute;
+    width: 76px;
+height: 4px;
+left: 0px;
+top: 36px;
+
+background: #DBA069;
+
+  }
+}
+.location {
+}
+.advantages {
+}
+.why {
+}
+.pay {
+}
+.contacts {
+}
+
