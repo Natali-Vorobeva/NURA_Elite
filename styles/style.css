@@ -83,7 +83,7 @@ a {
 .about::after {
   content: '';
   position: absolute;
-  width: 76px;
+  width: 78px;
   height: 4px;
   left: 0px;
   top: 36px;
