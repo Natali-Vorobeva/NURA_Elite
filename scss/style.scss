@@ -11,7 +11,8 @@ a {
 .page {
   font-family: 'Fira Sans', sans-serif;
   //min-width: rem(1440);
-	background: url('../image/fon-header.jpg') 0 0/100% 100% no-repeat;
+	//background: url('../image/fon-header.jpg') 0 0/100% 100% no-repeat;
+  background: linear-gradient(180deg, rgba(22, 9, 11, 0.5) 0%, rgba(37, 20, 22, 0.5) 100%), url('../image/fon-header.jpg') 0 0/100% 100% no-repeat;
 	min-height: 100vh;
   overflow: hidden;
 }
