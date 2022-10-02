@@ -9,39 +9,372 @@
   <meta name="keywords" content="элитный коттеджный поселок">
   <title>NURA ELITE</title>
   <link rel="icon" href="./image/icons/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+    rel="stylesheet" />
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/style.css">
 
 </head>
 
 <body class="page">
-  <section class="title-page _container">
-    <header class="header">
-      <img class="header__logo" src="./image/logo.png" alt="Логотип">
-      <div class="header__info">
-        <div class="header__contacts">
-          <a><img class="header__whatsapp" src="./image/icons/whatsapp.svg" alt="Ссылка на контакт в whatsapp"></a>
-          <div class="header__phone">
-            <img src="./image/icons/phone.svg" alt="Телефон">
-            <p class="header__phone-number">+7 700 001 18 88</p>
+  <wrapper class="page__container-page">
+    <!-- ?  Первая страница -->
+    <section class="title-page">
+      <header class="header _container">
+        <img class="header__logo" src="./image/logo.png" alt="Логотип">
+        <div class="header__info">
+          <div class="header__contacts">
+            <a><img class="header__whatsapp" src="./image/icons/whatsapp.svg" alt="Ссылка на контакт в whatsapp"></a>
+            <div class="header__phone">
+              <img src="./image/icons/phone.svg" alt="Телефон">
+              <p class="header__phone-number">+7 700 001 18 88</p>
+            </div>
+          </div>
+          <nav class="header__nav">
+            <a href="#" class="about">О проекте</a>
+            <a href="#" class="location">Локация</a>
+            <a href="#" class="advantages">Преимущества</a>
+            <a href="#" class="why">Почему мы?</a>
+            <a href="#" class="pay">Способы оплаты</a>
+            <a href="#" class="contacts">Контакты</a>
+          </nav>
+        </div>
+      </header>
+      <wrapper class="title-page__container _container">
+        <div class="title-page__column-main">
+          <h1 class="title-page__title">Элитный коттеджный городок в г. Нур-Султан</h1>
+          <!-- todo кнопка - скачать презентацию -->
+          <div class="title-page__btn" id="dbut" data-path="http://lorempixel.com/400/200/cats/">Скачать презентацию
+          </div>
+          <div class="title-page__quantity">36 коттеджей</div>
+          <div class="title-page__detailed">
+            <p class="title-page__font-size">3</p>
+            <p class="title-page__ten-acres">коттеджа 368 м&sup2;
+              на 10 сотках</p>
+            <p class="title-page__font-size">33</p>
+            <p class="title-page__five-acres">коттеджа 179 м&sup2;
+              на 5 сотках
+            </p>
           </div>
         </div>
-        <nav class="header__nav">
-          <a href="#" class="about">О проекте</a>
-          <a href="#" class="location">Локация</a>
-          <a href="#" class="advantages">Преимущества</a>
-          <a href="#" class="why">Почему мы?</a>
-          <a href="#" class="pay">Способы оплаты</a>
-          <a href="#" class="contacts">Контакты</a>
-        </nav>
+        <div class="title-page__column-plan">
+          <p class="title-page__paragraph"><span class="weight">Строительные работы</span> начались в сентября
+            2021 года</p>
+          <p class="title-page__paragraph"><span class="weight">Срок сдачи</span> коттеджей - I квартал 2022
+            года</p>
+          <p class="title-page__paragraph"><span class="weight">Срок сдачи</span> всего коттеджного городка -
+            II квартал 2022 года</p>
+        </div>
+      </wrapper>
+    </section>
 
+    <!-- ?  O проекте -->
+    <section class="about-the-project _container">
+      <h2 class="about-the-project__title section-title">О проекте</h2>
+      <img class="about-the-project__title-img title-img opacity" src="./image/about-opacity.png" alt="О проекте">
+      <div class="about-the-project__background background-color">
+
+        <!-- todo делаем points -background -->
+        <img class="about-the-project__logo-mm-group" src="./image/mm-group.png" alt="MM-логотип">
       </div>
-    </header>
 
-    <div class="title-page__grid"></div>
+      <p class="about-the-project__paragraph">Элитный закрытый коттеджный городок в г. Нур-Султан состоящий из:</p>
+      <p class="about-the-project__paragraph"><span class="weight">36 коттеджей:</span>
+        <br>- 368 м&sup2; на 10 сотках
+        <br> - 179 м&sup2; на 5 сотках
+      </p>
+      <article class="article">
+        <h3 class="article__title weight">О компании</h3>
+        <p class="article__subtitle">«MM Group» Группа Строительных Компании – современная и динамично развивающаяся
+          группа компаний, оказывающая широкий спектр услуг в строительном бизнесе от проектирования до сдачи объектов
+          под ключ. Свою деятельность в строительном бизнесе начала осуществлять с 2013 года и прочно зарекомендовала
+          себя надежной Казахстанской строительной компанией не только на территории Республики Казахстан, но и за
+          рубежом. Учредителем и генеральным директором группы строительных компаний «MM Group» является - Мольдир
+          Суюншали.</p>
+      </article>
+      <article class="article">
+        <h3 class="article__title  weight">Миссия</h3>
+        <p class="article__subtitle">Приоритетом группы строительных компаний «MM Group» является профессиональный
+          подход с применением инновационных решении в строительстве воздвигаемых объектов, опытный коллектив,
+          качественные материалы и своевременность сдачи объектов с доступной возможностью приобретения не только жилья,
+          но и других объектов недвижимости.</p>
+      </article>
+      <article class="article">
+        <h3 class="article__title weight">Цель</h3>
+        <p class="article__subtitle">Укрепление статуса компании, которая способна обеспечить потребителя доступной и
+          качественной недвижимостью в срок. Развитие, надежность и качество!</p>
+      </article>
+    </section>
 
-  </section>
+    <!-- ?  Коттеджи -->
+    <!-- <section class="cottages ">
+      <h2 class="cottages__title section-title _container-cottages">Коттеджи</h2>
+      <div class="cattages__slider _container-cottages">Слайдер</div>
+    </section> -->
+
+    <!-- ?  Локация -->
+    <section class="location _container">
+      <h2 class="location__title section-title">Локация</h2>
+      <img class="location__title-img title-img opacity" src="./image/location-opacity.png" alt="Локация">
+      <div class="location__background background-color">
+
+        <!-- todo делаем points -background -->
+        <img class="location__image" src="./image/location.png" alt="Локация">
+        <!-- todo делаем points внизу  -->
+      </div>
+      <p class="location__paragraph">Закрытый коттеджный городок Nura Elite расположен в элитном и перспективном районе
+        столицы, рядом с зелёным поясом по соседству с Vella Village. </p>
+      <p class="location__paragraph">Nura Elite - это прекрасное пространство для уединения и активной семейной жизни в
+        гармонии с природой, без городского шума с удобной транспортной развязкой.</p>
+    </section>
+
+    <!-- ? Преимущества -->
+    <section class="advantages _container">
+      <div class="advantages__indent">
+        <div class="advantages__container">
+          <h2 class="advantages__title section-title">Основные преимущества городка</h2>
+          <div class="advantages__items">
+            <div class="advantages__item">
+              <img class="advantages__icon" src="./image/icons/map-line.png" alt="">
+              <p class="advantages__text">Выгодное
+                месторасположение</p>
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__icon" src="./image/icons/security.png" alt="">
+              <p class="advantages__text">Охраняемая территория</p>
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__icon" src="./image/icons/fence.png" alt="">
+              <p class="advantages__text">Городок по периметру ограждён
+                3-метровым забором, оснащён системой видеонаблюдения 24/7</p>
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__icon" src="./image/icons/comfort.png" alt="">
+              <p class="advantages__text">Здесь вы почувствуете уединенность, безопасность и комфорт</p>
+            </div>
+          </div>
+          <img class="advantages__foto" src="./image/advantages.png" alt="">
+          <div class="advantages__items">
+            <div class="advantages__item">
+              <img class="advantages__icon" src="./image/icons/private-home.png" alt="">
+              <p class="advantages__text">Выгодное
+                месторасположение</p>
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__icon" src="./image/icons/private-app.png" alt="">
+              <p class="advantages__text">Собственное приложение</p>
+            </div>
+          </div>
+          <div class="advantages__item advantages__item_size_indent">
+            <!-- todo СДЕЛАТЬ АДАПТИВ КАРТИНКИ -->
+            <img class="advantages__icon " src="./image/icons/buildings.png" alt="">
+            <p class="advantages__text advantages__text_size_width">Каждому владельцу коттеджа даётся возможность на
+              своем земельном участке
+              возводить дополнительные застройки: баню, сауну, летнюю кухню и др.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ? Почему nura? -->
+
+    <section class="why-nura _container">
+      <h2 class="why-nura__title section-title">Почему NURA ELITE?</h2>
+      <div class="why-nura__flex">
+        <img class="why-nura__image" src="./image/why-nura.png" alt="">
+        <div class="why-nura__items">
+        <div class="why-nura__item">
+          <img class="why-nura__icon" src="./image/icons/energy.png" alt="Энергоэффективность">
+          <article class="why-nura__body-article">
+            <h3 class="article__title weight">Энергоэффективность</h3>
+            <p class="why-nura__subtitle">Дома сохраняют тепло зимой и прохладу летом</p>
+          </article>
+        </div>
+        <div class="why-nura__item">
+          <img class="why-nura__icon" src="./image/icons/eco.png" alt="Экологический район">
+          <article class="why-nura__body-article">
+            <h3 class="article__title weight">Экологически чистый район</h3>
+            <p class="why-nura__subtitle">Городок расположен рядом с лесополосой и к. Нура-Есиль</p>
+          </article>
+        </div>
+        <div class="why-nura__item">
+          <img class="why-nura__icon" src="./image/icons/security.png" alt="Экологический район">
+          <article class="why-nura__body-article">
+            <h3 class="article__title weight">Безопасность</h3>
+            <p class="why-nura__subtitle">Закрытый городок с круглосуточным видеонаблюдением</p>
+          </article>
+        </div>
+        <div class="why-nura__item">
+          <img class="why-nura__icon" src="./image/icons/water.png" alt="Экологический район">
+          <article class="why-nura__body-article">
+            <h3 class="article__title weight">Коммуникации</h3>
+            <p class="why-nura__subtitle">Централизованное водоснабжение, энергоснабжение и канализация.</p>
+            <p class="why-nura__subtitle">Отопительная система и горячая вода - это один общий газгольдер на весь
+              городок, функционирующий за счет
+              газа.</p>
+          </article>
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+    <!-- ? Технологии  -->
+
+    <section class="technology _container">
+      <h2 class="technology__title section-title">Технология строения</h2>
+      <img class="technology__title-img title-img opacity" src="./image/technology-opacity.png"
+        alt="Технологии строения">
+      <h2 class="technology__title section-title"></h2>
+      <div class="technology__columns">
+        <div class="technology__column">
+          <article class="article__body">
+            <img class="article__image" src="./image/wall-construction.png" alt="">
+            <h3 class="article__title article__title_size-indent weight">Конструкция стены</h3>
+            <p class="article__subtitle article__subtitle_size-indent">Двойная кладка из жжённого красного кирпича -
+              38/40 см, утепление минеральной
+              плитой - 10 см., и облицовка HPL и ФБЦ панелью</p>
+          </article>
+          <article class="article__body">
+            <img class="article__image" src="./image/door-design.png" alt="Конструкция двери">
+            <h3 class="article__title article__title_size-indent weight">Конструкция двери</h3>
+            <p class="article__subtitle article__subtitle_size-indent">Технология IZO TERMO.
+              <br>Двери не соприкасаются с наружными. Между ними расположен изолятор - щит из
+              португальского пробкового дуба толщиной в 8 мм. IZO TERMO устраняет “мостик холода” и не дает теплу
+              уходить
+              из дома. С этой технологией вам не нужен тамбур и вторая дверь.
+            </p>
+          </article>
+          <article class="article__body">
+            <img class="article__image" src="./image/facade-design.png" alt="Конструкция Фасада">
+            <h3 class="article__title article__title_size-indent weight">Конструкция Фасада</h3>
+            <p class="article__subtitle article__subtitle_size-indent">HPL панель - это высококачественная строительная
+              продукция для долговечной
+              облицовки фасада.
+              Стойкость на погодные воздействия +180 C/ -180с с высоким эффектом защиты от атмосферных воздействий.
+              <br>Данная защита обеспечивается за счет применения акрилополиуретановых смол с
+              двойным отверждением.
+              Относится к экологичным материалам.
+            </p>
+          </article>
+        </div>
+        <div class="technology__column step">
+          <article class="article__body">
+            <img class="article__image" src="./image/window-construction.png" alt="Конструкция окна">
+            <h3 class="article__title article__title_size-indent weight">Конструкция окна</h3>
+            <p class="article__subtitle article__subtitle_size-indent">Высокая экологичность, безопасность, надёжность
+              и долговечность, усиленная
+              теплоизолирующая способность, которая обеспечивается пятикамерным строением профиля с тройным остеклением
+              и шумоизоляцией (система Helios рассчитана на стеклопакеты толщиной 44 мм с воздушной прослойкой в 16 мм,
+              проходя через которые низкочастотные шумы теряют свою интенсивность, что очень ценят жители) по технологии
+              FUNKE</p>
+          </article>
+          <article class="article__body">
+            <img class="article__image" src="./image/roof-construction.png" alt="Конструкция кровли">
+            <h3 class="article__title article__title_size-indent weight">Конструкция кровли</h3>
+            <p class="article__subtitle article__subtitle_size-indent">Гибкая черепица ТЕХНОНИКОЛЬ SHINGLAS - это
+              гарантия комфорта и безопасности
+              вашего дома. Дома с кровлей из гибкой черепицы ТЕХНОНИКОЛЬ SHINGLAS очаровывают своей гармонией,
+              изяществом.
+              Коллекции отличаются разнообразием форм и расцветок.</p>
+          </article>
+          <article class="article__body">
+            <img class="article__image" src="/image/facade-cladding.png" alt="Материал для облицовки фасада">
+            <h3 class="article__title article__title_size-indent weight">ФБЦ</h3>
+            <p class="article__subtitle article__subtitle_size-indent">ФБЦ - это уникальный и высококачественный
+              строительный материал для долговечной
+              облицовки фасада.
+              <br>Высокая морозостойкость, пожаробезопасность, хорошая звуко- и теплоизоляция,
+              герметичность, повышенная
+              прочность, погодоустойчивость.
+              <br>Безопасна как для человека, так и для окружающей среды. Они не содержат асбест,
+              состоят из экологически
+              чистых натуральных компонентов: 82-85% цемента, древесное волокно, добавки для снижения веса,
+              кремнийорганические соединения
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ? Скачать презентацию  -->
+    <section class="presentation _container">
+      <h3 class="presentation__title">Скачать презентацию</h3>
+      <p class="presentation__subtitle">Оставьте свои контакты и мы вам вышлем</p>
+      <div class="presentation__box">
+        <input type="text" placeholder="Ваше имя" class="presentation__name">
+        <div class="presentation__name-icon"></div>
+        <input type="tel" placeholder="Номер телефона" class="presentation__tel">
+        <div class="presentation__tel-icon"> </div>
+
+        <button class="presentation__button">Отправить</button>
+      </div>
+    </section>
+
+    <!-- ? Способы оплаты  -->
+    <section class="payment _container">
+      <div class="payment__title-box">
+        <p class="payment__title-text">Оплата</p>
+        <h2 class="payment__title section-title">Способы оплаты</h2>
+      </div>
+      <!-- <img class="payment__title-img title-img opacity" src="./image/payment-opacity.png" alt="Способы оплаты"> -->
+      <div class="payment__flex">
+        <div class="payment__body-zhilstroy-sberbank">
+          <div class="payment__icons-zhilstroy-sberbank"><img src="./image/icons/zhilstroy-sberbank.png" alt=""></div>
+          <p class="payment__paragraph payment__paragraph_text_zhilstroy-sberbank">Получение займа через АО
+            “ЖилСтройСберБанк”</p>
+        </div>
+        <!-- todo ИЗУЧИТЬ LINE-HIEGHT -->
+        <div class="payment__body-percent">
+          <p class="payment__icons-percent">O<span class="text-size-font">%</span></p>
+          <p class="payment__paragraph">Получение беспроцентной рассрочки от застройщика NURA ELITE</p>
+        </div>
+        <div class="payment__body-horde">
+          <div class="payment__icons-horde"><img src="./image/icons/horde.png" alt=""></div>
+          <p class="payment__paragraph">Казахстанская Ипотечная Компания «Орда»</p>
+        </div>
+        <div class="payment__body-bitcoin">
+          <div class="payment__icons-bitcoin"><img src="./image/icons/bitcoin.png" alt="Оплата криптовалютой"></div>
+          <p class="payment__paragraph">Оплата криптовалютой (Биткоин)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ? Контакты  -->
+    <section class="contacts _container">
+      <div class="contacts__flex">
+        <img class="contacts__map" src="./image/contacts.png" alt="">
+        <div class="contacts__info">
+          <h2 class="contacts__title section-title">Контакты</h2>
+          <p class="contacts__address">ул. Кунаева 10, БЦ “Изумрудный”, блок - А, этаж 1</p>
+          <div class="contacts__columns">
+            <div class="contacts__social">
+              <p class="contacts__phone"> <img class="contacts__social" src="./image/icons/phone-black.svg"
+                  alt="Мобильный">+7 (700) 001-18-88</p>
+              <p class="contacts__phone"> <img class="contacts__social" src="./image/icons/email-black.svg"
+                  alt="Конверт">info@site.kz</p>
+              <p class="contacts__phone"> <img class="contacts__social" src="./image/icons/inst-black.svg"
+                  alt="Инстаграмм">@nura.premier</p>
+            </div>
+            <img class="contacts__qr-code" src="./image/contacts-qr-code.png" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer class="footer _container">
+      <nav class="footer__nav">
+        <a href="#" class="footer__link">Преимущества</a>
+        <a href="#" class="footer__link">Почему мы?</a>
+        <a href="#" class="footer__link">Технологии</a>
+        <a href="#" class="footer__link">Способы оплаты</a>
+      </nav>
+    </footer>
+  </wrapper>
+
+
 
 
 
